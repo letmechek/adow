@@ -1011,7 +1011,7 @@ export const sampleSpeeches = [
   {
     title: "MP Mohamed Adow meets Development Stakeholders in Habaswein to plan Drought Mitigation Measures",
     date: subDays(today, 72),
-    session: "National Assembly - Special Sitting",
+    session: "National Assembly - Special Sitting", 
     topic: "Climate Action",
     videoUrl: "https://www.youtube.com/embed/cH2lf7XDHvw",
     transcript:
@@ -1035,7 +1035,7 @@ export const sampleSpeeches = [
     transcript:
       "Hon. Adow presented recommendations to upgrade the Wajir-Garissa road network and expand solar lighting.",
   },
-  // "https://www.youtube.com/embed/dQw4w9WgXcQ"
+
 ];
 
 export const sampleBills = [
