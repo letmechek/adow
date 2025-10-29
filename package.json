@@ -3,20 +3,48 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed": "node --env-file=.env.local ./src/data/seed.mjs"
   },
   "dependencies": {
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "next": "16.0.1"
+    "@headlessui/react": "^2.2.9",
+    "@heroicons/react": "^2.2.0",
+    "@hookform/resolvers": "^5.2.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.19",
+    "axios": "^1.13.1",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.8.0",
+    "clsx": "^2.1.1",
+    "cookie": "^1.0.2",
+    "date-fns": "^4.1.0",
+    "formidable": "^3.5.4",
+    "framer-motion": "^12.23.24",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.548.0",
+    "mongoose": "^8.19.2",
+    "next": "14.2.14",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.3.8",
+    "react-hook-form": "^7.65.0",
+    "react-hot-toast": "^2.6.0",
+    "react-quill": "^2.0.0",
+    "recharts": "^3.3.0",
+    "swiper": "^12.0.3",
+    "swr": "^2.3.6",
+    "tailwind-merge": "^3.3.1",
+    "zod": "^4.1.12",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.1"
+    "autoprefixer": "10.4.16",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.14",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.13"
   }
 }

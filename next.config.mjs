@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    domains: [
+      "www.google.com",
+      "encrypted-tbn0.gstatic.com",
+      "enewspolar.com",
+      "mzalendo.com",
+   
+    ],
+  },
 };
 
 export default nextConfig;
