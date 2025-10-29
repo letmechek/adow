@@ -1004,7 +1004,7 @@ export const sampleSpeeches = [
     date: subDays(today, 45),
     session: "National Assembly - Afternoon Session",
     topic: "Education Funding",
-    videoUrl: "https://www.yohttps://www.youtube.com/watch?v=mgIGp-1Uwv0utube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/mgIGp-1Uwv0",
     transcript:
       "Hon. Mohamed Adow emphasized equitable resource allocation for marginalized counties, prioritizing digital learning and teacher training.",
   },
@@ -1013,7 +1013,7 @@ export const sampleSpeeches = [
     date: subDays(today, 72),
     session: "National Assembly - Special Sitting",
     topic: "Climate Action",
-    videoUrl: "https://www.youtube.com/watch?v=cH2lf7XDHvw",
+    videoUrl: "https://www.youtube.com/embed/cH2lf7XDHvw",
     transcript:
       "The MP outlined a multi-pronged approach featuring early warning systems, water harvesting, and pastoralist insurance.",
   },
@@ -1022,7 +1022,7 @@ export const sampleSpeeches = [
     date: subDays(today, 90),
     session: "National Assembly - Morning Session",
     topic: "Youth Development",
-    videoUrl: "https://www.youtube.com/watch?v=v9KpkpgGGWM",
+    videoUrl: "https://www.youtube.com/embed/v9KpkpgGGWM",
     transcript:
       "Speech highlighting investment in technical training and innovation grants for youth-led enterprises.",
   },
@@ -1031,10 +1031,11 @@ export const sampleSpeeches = [
     date: subDays(today, 130),
     session: "Committee of the Whole House",
     topic: "Infrastructure",
-    videoUrl: "https://www.youtube.com/watch?v=c6p5hDf9P_4",
+    videoUrl: "https://www.youtube.com/embed/c6p5hDf9P_4",
     transcript:
       "Hon. Adow presented recommendations to upgrade the Wajir-Garissa road network and expand solar lighting.",
   },
+  // "https://www.youtube.com/embed/dQw4w9WgXcQ"
 ];
 
 export const sampleBills = [
