@@ -291,10 +291,10 @@ function VotingTab() {
 
 export default function LegislativeTabs() {
   const tabs = [
-    { key: "bills", label: "Bills Sponsored", content: <BillsTable /> },
+    // { key: "bills", label: "Bills Sponsored", content: <BillsTable /> },
     { key: "committee", label: "Committee Work", content: <CommitteeTab /> },
     { key: "speeches", label: "Speeches", content: <SpeechesTab /> },
-    { key: "voting", label: "Voting Record", content: <VotingTab /> },
+    // { key: "voting", label: "Voting Record", content: <VotingTab /> },
   ];
 
   const [activeTab, setActiveTab] = useState(tabs[0].key);
