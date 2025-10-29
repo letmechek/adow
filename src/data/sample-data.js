@@ -1000,38 +1000,38 @@ export const sampleGallery = [
 
 export const sampleSpeeches = [
   {
-    title: "Budget Policy Statement Debate - Education Priorities",
+    title: "Mohammed Adow | Foreign Troops Must Leave Kenyan Soil",
     date: subDays(today, 45),
     session: "National Assembly - Afternoon Session",
     topic: "Education Funding",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.yohttps://www.youtube.com/watch?v=mgIGp-1Uwv0utube.com/embed/dQw4w9WgXcQ",
     transcript:
       "Hon. Mohamed Adow emphasized equitable resource allocation for marginalized counties, prioritizing digital learning and teacher training.",
   },
   {
-    title: "Climate Resilience and Drought Mitigation Motion",
+    title: "MP Mohamed Adow meets Development Stakeholders in Habaswein to plan Drought Mitigation Measures",
     date: subDays(today, 72),
     session: "National Assembly - Special Sitting",
     topic: "Climate Action",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/watch?v=cH2lf7XDHvw",
     transcript:
       "The MP outlined a multi-pronged approach featuring early warning systems, water harvesting, and pastoralist insurance.",
   },
   {
-    title: "Youth Empowerment Bill Second Reading",
+    title: "Heated debate as MP Mohamed Adow, Gatundu South MP clash over the disputed 2019 census figures",
     date: subDays(today, 90),
     session: "National Assembly - Morning Session",
     topic: "Youth Development",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/watch?v=v9KpkpgGGWM",
     transcript:
       "Speech highlighting investment in technical training and innovation grants for youth-led enterprises.",
   },
   {
-    title: "Infrastructure Committee Report on Northern Corridor Roads",
+    title: "North Eastern's 'Negotiated Democracy' Is Backward & Unfair",
     date: subDays(today, 130),
     session: "Committee of the Whole House",
     topic: "Infrastructure",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/watch?v=c6p5hDf9P_4",
     transcript:
       "Hon. Adow presented recommendations to upgrade the Wajir-Garissa road network and expand solar lighting.",
   },

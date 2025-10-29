@@ -79,14 +79,16 @@ export default async function HomePage() {
           </div>
           <div className="flex items-center justify-center lg:w-[360px]">
             <div className="relative h-64 w-64 rounded-full border-4 border-white/30 bg-gradient-to-br from-white/20 via-white/10 to-transparent p-2 sm:h-72 sm:w-72">
-              <Image 
-                src="/moe.png" 
-                alt="Hon. Mohamed Adow" 
-                className="h-full w-full rounded-full object-cover" 
-                width={288} 
-                height={288}
-              />
-              <div className="absolute -bottom-6 left-1/2 w-64 -translate-x-1/2 rounded-2xl bg-white/20 py-3 text-center text-sm font-semibold uppercase tracking-[0.35em] text-white/80">
+              <div className="relative z-0">
+                <Image 
+                  src="/moe.png" 
+                  alt="Hon. Mohamed Adow" 
+                  className="h-full w-full rounded-full object-cover" 
+                  width={288} 
+                  height={288}
+                />
+              </div>
+              <div className="absolute -bottom-6 left-1/2 w-64 -translate-x-1/2 rounded-2xl bg-white/50 py-3 text-center text-sm font-semibold uppercase tracking-[0.35em] text-white/80 z-20 ">
                 Integrity • Purpose
               </div>
             </div>
